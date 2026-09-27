@@ -1,0 +1,71 @@
+ <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("https://framerusercontent.com/images/3mcYCC2xd3mOrk6BN63xnxG8.jpg") no-repeat center center/cover;
+      color: rgb(10, 10, 10);
+      font-size: larger;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    nav {
+      background: rgba(0,0,0,0.6);
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header {
+      text-align: left;
+      margin-top: 50px; /* pushes heading below nav */
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    main {
+      flex: 1; /* takes available space, pushes footer down */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; /* centers content vertically */
+      padding: 40px 20px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 70px;
+      flex-wrap: wrap; /* ensures responsiveness */
+      margin-top: 30px;
+    }
+    .card {
+      background: rgba(255,255,255,0.9);
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      color: black;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      border-radius: 10px;
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background: rgba(0,0,0,0.6);
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+url('https://img.freepik.com/free-photo/many-shopping-packets-with-handles_23-2147950183.jpg?semt=ais_incoming&w=740&q=80') no-repeat center center/cover;
+    }
